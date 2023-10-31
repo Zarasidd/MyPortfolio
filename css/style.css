@@ -46,12 +46,30 @@ header {
 }
 
 /* Hero banner */
-/* IMG SOURCE: https://www.istockphoto.com/photo/programming-code-abstract-technology-background-of-software-deve-gm537331500-95204155 */
 .hero-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/Stock.jpg'); /* Replace 'path_to_image.jpg' with the path to your image */
-  background-size: cover;
-  height: 400px;
+  background-image: url('../images/hero-bg2.jpg');
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:end;
+  justify-content:flex-end;
+
 }
+
+#heroText h2 {
+  color: #fff;
+  font-size: 26px;
+  margin: 0;
+  border:#090b27;
+  color: #090b27;
+  background-color: #6ee2ff;
+  margin: 0px;
+  padding-left: 30px;
+  padding-right: 5px;
+  border-radius: 5px;
+  margin-bottom:20px;
+}
+
