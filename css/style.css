@@ -1,23 +1,57 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-p {
-  margin: 0;
+/* Header and navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: #090b27;
+}
+
+#logo h1 {
+  color: #090b27;
+  background-color: #6ee2ff;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 15px;
+  border-radius: 5px; 
+
+}
+
+#navigation ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#navigation li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#navigation a {
+  color: #6ee2ff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Hero banner */
+/* IMG SOURCE: https://www.istockphoto.com/photo/programming-code-abstract-technology-background-of-software-deve-gm537331500-95204155 */
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/Stock.jpg'); /* Replace 'path_to_image.jpg' with the path to your image */
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
